@@ -6,9 +6,10 @@ phosphor-sectionlist
 
 A data structure for a collection of variable sized sections.
 
-A section list is commonly used to manage row heights in virtually
-scrolling list controls. In such a control, most rows are uniform
-height while a handful of rows are variable sized.
+A section list is well suited to managing row heights in virtually
+scrolling list controls. In these controls, most rows are uniform
+height while a handful of rows are variable sized. A pair of lists
+can be used to efficiently manage a virtually scrolling data grid.
 
 A section list has guaranteed `O(log n)` worst-case performance for
 most operations, where `n` is the number of variable sized sections.
