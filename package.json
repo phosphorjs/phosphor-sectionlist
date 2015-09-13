@@ -1,6 +1,6 @@
 {
   "name": "phosphor-sectionlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A data structure for a collection of variable sized sections.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
