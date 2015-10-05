@@ -1,6 +1,6 @@
 {
   "name": "phosphor-sectionlist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A data structure for a collection of variable sized sections.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -11,8 +11,8 @@
     "istanbul": "^0.3.19",
     "mocha": "^2.2.5",
     "rimraf": "^2.4.2",
-    "typedoc": "git://github.com/phosphorjs/typedoc.git",
-    "typescript": "1.6.0-beta"
+    "typedoc": "^0.3.11",
+    "typescript": "^1.6.2"
   },
   "scripts": {
     "clean": "rimraf lib && rimraf test/build && rimraf test/coverage",
